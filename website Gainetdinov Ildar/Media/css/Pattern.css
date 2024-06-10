@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(to bottom, rgba(48, 48, 48, 0.7), rgba(0, 0, 0, 1)), url('../../Media/pictures/Back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+li {
+    margin: 0 10px; 
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.language-buttons {
+    margin-left: auto; 
+    margin-top: 15px;
+}
+
+.language-buttons a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.language-buttons img {
+    height: 30px;
+    width: auto;
+}
+
+.About {
+    text-align: center;
+    font-size: 17pt;
+    margin: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+footer {
+    background: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    margin-right: 20px;
+}
+
+#imageContainer {
+    margin: 20px;
+    text-align: center;
+}
+
+#buttonsContainer {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.content h1 {
+
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content p {
+
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.content h2 {
+
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.content li {
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
